@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+/* INDEX */
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+.bemvindo{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.botao{
+    width: 600px;
+    height: 50px;
+    background-color: blueviolet;
+    font-size: larger;
+    border-radius: 50px;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#btfuncionario{
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+#btgerente{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+}
+
+#voltar{
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.carousel-caption{
+    margin-bottom: 150px;
+    color: white
+}
+
+
+/* INDEX */
+
+
+.nav-link{
+    background-color: black;
+    color: black;
+}
