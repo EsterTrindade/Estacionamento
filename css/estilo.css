@@ -9,11 +9,6 @@ h1{
     font-size: 100px;
 }
 
-.bemvindo{
-    color: blueviolet;
-    font-size: 30px;
-}
-
 h3{
     font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -57,16 +52,72 @@ a{
     border-radius: 10px;
 }
 
-.carousel-caption{
-    margin-bottom: 150px;
-    color: white
+#sino{
+    margin-left: 20px;
 }
-
 
 /* INDEX */
 
 
-.nav-link{
-    background-color: black;
-    color: black;
+/* BARRA DE NAVEGAÇÃO */
+.navbar{
+    background-color: white;
 }
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+
+
+
+/* MAIN */
+
+main{
+    text-align: center;
+    height: auto;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+ 
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+ 
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.bemvindo{
+    color: blueviolet;
+    font-size: 30px;
+    margin-bottom: 90px;
+}
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* FOOTER */
