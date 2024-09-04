@@ -9,9 +9,10 @@
 </head>
 <body>
 
+   
     <!--BARRA DE NAVEGAÇÃO-->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">LOGO EASYPARK AQUI</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,18 +21,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Entrar/Cadastrar</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Precisa de ajuda?</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Sobre</a></li>
+                            <li><a class="dropdown-item" href="#">Esqueci minha senha</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Fale Conosco!</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -39,8 +40,8 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                 </form>
             </div>
         </div>
@@ -52,54 +53,41 @@
 
     <!--CARROSSEL-->
 
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../imagens/banner-estacionamento.jpg" class="d-block w-100" height="500px" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="../imagens/banner-estacionamento-celular.jpg" class="d-block w-100" height="500px" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="../imagens/vaga-estacionamento-idoso.png" class="d-block w-100" height="500px" alt="...">
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="imagens/videos/estacionamento.mp4" type="video/mp4">
+    </video>
 
-    
+
     <!--FIM CARROSSEL-->
 
-    <br>
+    <main>
 
-    <h1>EASY PARK<h1>
+        <br>
+        <h1 class="easyparkindex">EASY PARK<h1>
 
-    <p class="bemvindo">Bem vindo ao EasyPark!<p>
-    
-    <br>
-    
-    <h3>Para começarmos, Você é Funcionário ou Gerente?<h3>
+            <p class="bemvindo">Bem vindo ao EasyPark!<p>
+            
+            
+            <h3>Para começarmos, Você é Funcionário ou Gerente?<h3>
+        
+            <br><br>
+            
+            <button class="botao" id="btfuncionario"><a href="indexfuncionario.html">SOU FUNCIONÁRIO</a></button>
+        
+            <br><br>
+        
+            <button class="botao" id="btgerente"><a href="indexgerente.html">SOU GERENTE</a></button>
 
-    <br><br><br>
-    
-    <button class="botao" id="btfuncionario"><a href="indexFuncionario.php">SOU FUNCIONÁRIO</a></button>
+            <br><br>
 
-    <br><br>
+            <section>
 
-    <button class="botao" id="btgerente"><a href="indexGerente.php">SOU GERENTE</a></button>
-    
-    <br><br>
+            </section>
+    </main>
 
     <!--FOOTER--> 
 
-    <footer class="bg-body-tertiary text-center">
+    <footer class="text-center">
         <!-- Grid container -->
 
         <div class="container p-4 pb-0">
@@ -172,12 +160,14 @@
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">© 2024 Copyright:
-            <a class="text-body" href="index.php">Easy Park</a>
+            <a class="text-body" href="index.html">Easy Park</a>
+            <p>E-MAIL: contato@EasyPark.com</p>
         </div>
         <!-- Copyright -->
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
